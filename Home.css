@@ -1,0 +1,335 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto:ital,wght@0,100..900;1,100..900&display=swap');
+body{
+  background: linear-gradient(90deg,#2b2525, #222222);
+  color:white;
+  font-family: DM Sans;
+  margin:0;
+  padding: 0;
+  height: auto;
+
+
+}
+/* Target the scrollbar track */
+body::-webkit-scrollbar {
+    width: 10px; /* Set scrollbar width */
+    background-color: #000000e1; /* Background of the scrollbar track */
+}
+
+/* Target the scrollbar thumb (the moving part) */
+body::-webkit-scrollbar-thumb {
+    background-color: #222222bd; /* Color of the thumb */
+    border-radius: 5px; /* Rounded corners for thumb */
+ /* Add a border around the thumb */
+}
+
+/* Target the scrollbar when hovered */
+body::-webkit-scrollbar-thumb:hover {
+    background-color: #2f4943; /* Change thumb color on hover */
+}
+
+/* Customize the scrollbar's corner (only for overlays) */
+body::-webkit-scrollbar-corner {
+    background-color: #ffffff; /* Background for the corner where horizontal and vertical scrollbars meet */
+}
+
+
+.sidebar {
+    background-color: rgba(0, 0, 0, 1);
+    color: white;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 350.8px;
+    max-height: 100vh;
+    overflow-y: auto;
+    z-index: 200;
+    padding-bottom: 20px;
+    box-sizing: border-box;
+    bottom: 12%;
+    cursor: pointer;
+
+}
+.sidebar::-webkit-scrollbar {
+    display: none; /* Chrome, Safari, and Edge */
+}
+
+.logo{
+    height:40.53px;
+    margin-top: 39.29px;
+    margin-left: 35.82px;
+}
+.box{
+    margin-top: 20px;
+    margin-left: 20px;
+    font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.74px;
+letter-spacing: -0.06em;
+text-align: left;
+text-underline-position: from-font;
+text-decoration-skip-ink: none;
+margin-right: 20px;
+
+
+}
+.box i{
+    padding-right: 70px;
+    padding-left: 25px;
+}
+.box div{
+    padding: 20px;
+}
+.div-1-sidebar{
+    background-color: #282828;
+    border-radius: 10px;
+}
+
+.box p{
+    margin-left: 38.29px;
+    margin-bottom: 20px;
+}
+.box-1{
+    margin-top: 50px;
+    margin-left: 20px;
+    font-family: DM Sans;
+font-size: 19px;
+font-weight: 700;
+line-height: 24.74px;
+padding-bottom: 20px;
+display: flex;
+align-items: center;
+
+}
+.box-1 img{
+    margin-right: 70px;
+    margin-left: 30px;
+   
+}
+.Install{
+   bottom: 0%;
+}
+body{
+    background: linear-gradient(90deg,#222222,#171717,#1F1F1F)
+
+}
+.good{
+    margin-left: 400px;
+    width: 1120px;
+    height: 294px;
+    margin-top: 112px;
+
+}
+.good-mon{
+    font-family: DM Sans;
+    font-weight: 700;
+    font-size: 38px;
+    line-height: 49.48px;
+    letter-spacing: -3%;
+    display: block;
+    width: 100%;
+}
+
+.songs{
+    display: flex;
+    width: 340px;
+    height: 100px;
+    background-color: #303030;
+    border-radius: 5px;
+    text-align: center;
+    cursor: pointer;
+}
+.liked{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.04px;
+    letter-spacing: -2%;
+    padding-top: 13px;
+    text-align: left; 
+    align-items: center;
+    
+
+}
+.linked2{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 26.04px;
+    letter-spacing: -2%;
+    padding-top: 0px;
+
+}
+.songs img{
+   border-top-left-radius: 5px;
+   border-bottom-left-radius: 5px;
+    margin-right: 50px;
+    width: 100px;
+}
+.song-good{
+    display: flex;
+    gap: 20px;
+    flex-wrap: wrap;
+}
+.section-2{
+    width: 999px;
+    height: 664px;
+    margin-top: 80px;
+    margin-left: 419px;
+}
+.show{
+    font-weight: 700;
+    font-size: 29px;
+    line-height: 37.76px;
+    letter-spacing: -4%;
+}
+.art{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    row-gap: 8px;
+    column-gap: 20px;
+    cursor: pointer;
+}
+
+.art1{
+    border: 1px ;
+    background-color: #181818;
+    width: 251.29px;
+    height: 305.9px;
+
+}
+.art1 img{
+    height: 207.93px;
+    width: 207.78px;
+    margin-left: 20px;
+    margin-top: 20px;
+    border-radius: 14.5px;
+}
+.title{
+    font-weight: 500;
+    font-size: 20px;
+    line-height: 27.34px;
+    letter-spacing: 9%;
+    margin-top: 10px;
+    margin-left: 20px;
+    margin-bottom: 0;
+}
+.name{
+    font-weight: 500;
+    font-size: 10px;
+    margin-left: 20px;
+    margin-top: 5;
+    color: #B3B3B3;
+}
+.section-2sub{
+    display: flex;
+    justify-content: space-between;
+}
+.see{
+    font-size: 17px;
+    font-weight: 700;
+    line-height: 22.13px;
+    letter-spacing: 4%;
+    color: #B3B3B3;
+}
+.downbar {
+    background: #181818;
+    color: white;
+    position: fixed;
+    left: 0;
+    right: 0;
+    bottom: 10px;
+    height: 80px;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    z-index: 550;
+    padding: 0 20px;
+    box-shadow: 0 -2px 10px rgba(0, 0, 0, 0.5);
+    cursor: pointer;
+}
+
+.downbarimg {
+    width: 63px;
+    height: 63px;
+    margin-left: 20px;
+    border-radius: 10px;
+    object-fit: cover;
+}
+
+.Dreaming {
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 1.5;
+    margin-left: 10px;
+    margin-bottom: 0;
+    width: auto;
+}
+
+.NEFFEX {
+    margin-left: 10px;
+    font-size: 14px;
+    color: #B3B3B3;
+    margin-top: 2px;
+}
+
+.heart {
+    color: #1DB954;
+    margin-left: 20px;
+    font-size: 18px;
+}
+
+.player {
+    margin-left: auto;
+    margin-right: auto;
+    width: 500px;
+    height: 70px;
+    
+}
+
+.rights {
+
+    height: 50px;
+}
+
+.downbar2 {
+    position: fixed;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    height: 20px;
+    display: flex;
+    z-index: 550;
+    margin: 0;
+   
+
+
+}
+
+.green{
+    width: 1540px;
+    height: 20px;
+    padding-bottom: 10px;
+}
+.nav{
+    margin-left: 381px;
+    margin-top: 20px;
+    display: flex;
+    height: 40px;
+    justify-content: space-between;
+    align-items: center;
+}
+.user{
+    margin-right: 10px;
+    
+}
+.userimg{
+    height:30px;
+}
+a{
+    text-decoration: none;
+    color: white;
+}
+a::after{
+    text-decoration: none;
+    color: white;
+}
